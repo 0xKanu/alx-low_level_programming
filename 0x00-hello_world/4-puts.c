@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*main(void) function prints string using puts function*/
+/*main function prints string using puts function
+ *return 0 for true
+*/
 int main(void)
 {
 	/*string initialisation*/
