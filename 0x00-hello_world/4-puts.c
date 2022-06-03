@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/*main function prints string using puts function, return 0 if true*/
+/**
+ * main prints \"Programming is like building a multilingual puzzle
+ * return 0 if true 
+ **/
 int main(void)
 {
 	/*string initialisation*/
