@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - this function prints the lowercase alphabets first then 
+  * main - this function prints the lowercase alphabets first then
   * UPPERCASE letters.
   * Return: 0 always if successful.
   */
@@ -13,12 +13,12 @@ int main(void)
 while (beta <= 122)
 {
 putchar(beta);
-beta ++;
+beta++;
 }
 while (alpha <= 90)
 {
 putchar(alpha);
-alpha ++;
+alpha++;
 }
 putchar(10);
 
