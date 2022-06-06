@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
   * main - prints alphabets execpt 'q' & 'e'.
-  * Return: 0 if successful. 
+  * Return: 0 if successful.
   */
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
 
 	while (beta <= 122)
 	{
-		if ((beta!=101) && (beta!=113))
+		if ((beta != 101) && (beta != 113))
 		{putchar(beta); }
 
 	beta++;
