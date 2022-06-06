@@ -11,13 +11,14 @@ int main(void)
 
 	while (num <= '9')
 		{
-			putchar(num);
-			num++;
+		putchar(num);
+		num++;
 		}
+
 	while (hex_letter <= 'f')
 		{
-			putchar(hex_letter);
-			hex_letter++;
+		putchar(hex_letter);
+		hex_letter++;
 		}
 
 	putchar(10);
