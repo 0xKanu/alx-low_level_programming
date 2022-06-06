@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/**
+ * main - function prints the last digit of a number and 
+ * says if it is greater than 5 or less than 6 but not zero.
+ * Return : 0 always if successful
+ */
 int main(void)
 {
 	int n;
@@ -19,7 +23,7 @@ int main(void)
 	printf("and is greater than 5\n");
 	else if (n == 0)
 	printf("and is 0\n");
-	else if ((6 > n) != 0) 
+	else if ((n < 6) != 0)
 	printf("and is less than 6 and not 0\n");
 	return (0);
 }
