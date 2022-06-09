@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	char func[] = {'_','p','u','t','c','h','a','r',10};
+	char func[8] = "_putchar";
 	int c = 0 ;
 
 	while (c < 9){
 	_putchar(func[c]);
 	c++;
 	}
+	_putchar(10);
 return (0);
 }
