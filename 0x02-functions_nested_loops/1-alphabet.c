@@ -1,14 +1,7 @@
 #include "main.h"
-
 /**
-  * 1-print_alphabet - prints the alphabet,
-  * in lowercase, followed by a new line.
-  *
-  * Return: null
-  *
+  * print_alphabet - print the alphabet
   */
-
-/* print_alphabet - prints lowercase alphabets*/
 void print_alphabet(void)
 	{
 		int n;
