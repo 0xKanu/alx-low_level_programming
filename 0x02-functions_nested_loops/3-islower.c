@@ -4,7 +4,7 @@
   *
   * @c: parameter checked.
   *
-  * Return - 1 if lowercase alphabet character, 0 otherwise
+  * Return - 1 if lowercase alphabet character. 0 otherwise
   */
 int _islower(int c)
 {
