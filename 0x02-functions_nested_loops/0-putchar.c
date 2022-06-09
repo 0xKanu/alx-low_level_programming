@@ -9,9 +9,10 @@
 int main(void)
 {
 	char func[8] = "_putchar";
-	int c = 0 ;
+	int c = 0;
 
-	while (c < 8){
+	while (c < 8)
+	{
 	_putchar(func[c]);
 	c++;
 	}
