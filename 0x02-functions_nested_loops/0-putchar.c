@@ -11,7 +11,7 @@ int main(void)
 	char func[8] = "_putchar";
 	int c = 0 ;
 
-	while (c < 9){
+	while (c < 8){
 	_putchar(func[c]);
 	c++;
 	}
