@@ -8,14 +8,12 @@
   */
 void print_line(int n);
 {
-	char uscore = '_';
-	int rep = 0;
-
-	while (rep <= n)
+	int (n > 0)
 	{
-		_putchar(uscore + '0');
-		rep++;
+		while (n--)
+			_putchar('_');
 	}
+	_putchar(10);
 return;
 }
 
