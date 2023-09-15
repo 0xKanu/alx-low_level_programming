@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	unsigned int unit;
+	unsigned unit;
 
 	unit = n % 10;
 
