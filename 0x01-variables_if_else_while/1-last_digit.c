@@ -10,10 +10,10 @@
 int main(void)
 {
 	int n;
+	unsigned int unit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	unsigned unit;
 
 	unit = n % 10;
 
