@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n;
-	unsigned int unit;
+	int unit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -22,7 +22,7 @@ int main(void)
 	else if (unit == 0)
 		printf("Last digit of %d is %d and is 0\n", n, unit);
 	else if (unit < 6 && unit != 0)
-		printf("Last digit of %d is %d and is less than 5 and not 0\n", n, unit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, unit);
 
 	return (0);
 }
