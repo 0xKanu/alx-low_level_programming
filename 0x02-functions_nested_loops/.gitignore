@@ -1,2 +1,2 @@
-[:digit:]*main.c
-*.o
+*main.c
+*.exe
