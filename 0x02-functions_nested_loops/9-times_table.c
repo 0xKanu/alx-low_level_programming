@@ -16,7 +16,7 @@ void times_table(void)
 		{
 			prod = num1 * num2;
 
-			if (prod == 0)
+			if (num2 == 0)
 			{
 				_putchar('0' + prod);
 			}
