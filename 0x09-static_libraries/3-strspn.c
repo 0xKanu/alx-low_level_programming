@@ -1,26 +1,35 @@
 #include "main.h"
 
 /**
- * _strncpy - Copies at most an inputted number
- *            of bytes from string src into dest.
- * @dest: The buffer storing the string copy.
- * @src: The source string.
- * @n: The maximum number of bytes to copied from src.
+ * _strspn - Gets the length of a prefix substring.
+ * @s: The string to be searched.
+ * @accept: The prefix to be measured.
  *
- * Return: A pointer to the resulting string dest.
+ * Return: The number of bytes in s which
+ * consist only of bytes from accept.
  */
-char *_strncpy(char *dest, char *src, int n)
+
+unsigned int _strspn(char *s, char *accept)
 {
-	int index = 0, src_len = 0;
+	unsigned int bytes = 0;
+	int index;
 
-	while (src[index++])
-		src_len++;
+	while (*s)
+	{
+		for (index = 0; accept[index]; index++)
+		{
+			if (*s == accept[index])
+			{
+				bytes++;
+				break;
+			}
 
-	for (index = 0; src[index] && index < n; index++)
-		dest[index] = src[index];
+			else if (accept[index + 1] == '\0')
+				return (bytes);
+		}
 
-	for (index = src_len; index < n; index++)
-		dest[index] = '\0';
+		s++;
+	}
 
-	return (dest);
+	return (bytes);
 }
